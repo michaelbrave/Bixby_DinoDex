@@ -1,0 +1,22 @@
+vocab (NAME){
+    "Argentinosaurus" {"Argentinosaurus", "argentina", "argentino"}
+    "Spinosaurus" {"Spinosaurus", "spine", "spino"}
+    "Utahraptor" {"utahraptor", "utah", "utah raptor"}
+    "Tyrannosaurus Rex" {"Tyrannosaurus Rex", "TyrannosaurusRex", "Tyrant", "rex", "Tyrannosaurus-Rex", "T-Rex"}
+    "Titanoceratops" {"Titanoceratops", "Titan ceratops", "sarah", "top", "titano"}
+    "Magnapaulia" {"Magnapaulia", "Magna", "paul", "e"}
+    "Gigantoraptor" {"Gigantoraptor", "giant", "giganto raptor"}
+    "Deinocheirus" {"Deinocheirus", "dean", "cherry"}
+    "Riojasaurus" {"Riojasaurus", "rio", "jazz", "rioja"}
+    "Quetzalcoatlus" {"Quetzalcoatlus", "quiet", "sal", "coat", "loss", "quetzalcoatl"}
+    "Sarcosuchus" {"Sarcosuchus", "sar", "co", "suck", "sarco"}
+    "Titanoboa" {"Titanoboa", "Titano boa", "titan boa", "boa"}
+    "Archelon" {"Archelon", "arch", "eh", "leon"}
+    "Shastasaurus" {"Shastasaurus", "shasta"}
+    "Kronosaurus" {"Kronosaurus", "crow", "no", "Krono"}
+    "Elasmosaurus" {"Elasmosaurus", "el", "as", "Elasmo"}
+    "Mosasaurus" {"Mosasaurus", "moe", "sass", "mosa"}
+    "Smok" {"Smok", "smore", "sock", "smak"}
+    "Moschops" {"Moschops", "moss", "chops"}
+    "Cotylorhynchus" {"Cotylorhynchus", "cody", "lore", "hint", "chose"}
+}

@@ -1,0 +1,5 @@
+train (t-Dinosaur) {
+  utterance ([g:FindDinosaur] Show all dinosaur  names)
+  plan (Y2BikC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgChiBkAGKgSQA)
+  last-modified (1576170472388)
+}

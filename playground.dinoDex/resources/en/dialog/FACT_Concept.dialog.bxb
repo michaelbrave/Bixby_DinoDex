@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    FACT (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (fACT)
+    }
+    default {
+      template (fACTs)
+    }
+  }
+}

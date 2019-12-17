@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    TRIVIA (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (tRIVIA)
+    }
+    default {
+      template (tRIVIAs)
+    }
+  }
+}

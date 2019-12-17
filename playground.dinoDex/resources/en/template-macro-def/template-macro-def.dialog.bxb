@@ -1,0 +1,91 @@
+template-macro-def (ITEM_SELECTION_QUESTION_GENERIC) {
+  content {
+    choose (Random) {
+      template ("Does that sound good?")
+      template ("Want to pick this one?")
+      template ("Does that one sound good?")
+      template ("Want to choose this one?")
+      template ("Do you want that one?")
+    }
+  }
+}
+
+template-macro-def (RESULT_OVERFLOW_STATEMENT) {
+  content {
+    template ("This is all I have.")
+  }
+}
+
+template-macro-def (RESULT_UNDERFLOW_STATEMENT) {
+  content {
+    template ("The first result is")
+  }
+}
+
+template-macro-def (RESULT_NEXT_QUESTION) {
+  content {
+    template ("Would you like another?")
+  }
+}
+
+template-macro-def (PAGE_MARKER_LAST) {
+  content: template ("The End")
+}
+
+template-macro-def (RESULT) {
+  params {
+    param (concept) {
+      type (core.Top)
+      min (Required)
+      max (Many)
+    }
+  }
+  content {
+    if ("plural(concept) == 'One'") {
+      if ($handsFree) {
+        template("I found #{value(concept)}.")
+      } else {
+        template("Here is the #{concept(concept)}:")
+      }
+    } else {
+      template ("Here are some #{concept(concept)}:")
+    }
+  }
+}
+
+template-macro-def (NO_RESULT) {
+  params {
+    param (concept) {
+      type (core.Top)
+      min (Required)
+      max (Many)
+    }
+  }
+  content {
+    template ("I couldn't find any #{concept(concept)}")
+  }
+}
+
+template-macro-def (SELECTION) {
+  params {
+    param (label) {
+      type (core.Text)
+      min (Required)
+    }
+  }
+  content {
+    template ("Which #{label}?")
+  }
+}
+
+template-macro-def (ELICITATION) {
+  params {
+    param (label) {
+      type (core.Text)
+      min (Required)
+    }
+  }
+  content {
+    template ("What is the #{label}?")
+  }
+}

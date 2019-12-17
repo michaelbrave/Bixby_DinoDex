@@ -1,0 +1,48 @@
+structure (Dinosaur) {
+  property (nAME) {
+    type (NAME)
+    min(Optional) max(One)
+  }
+  property (fACT) {
+    type (FACT)
+    min(Optional) max(One)
+  }
+  property (tRIVIA) {
+    type (TRIVIA)
+    min(Optional) max(One)
+  }
+  property (image) {
+    type (viv.core.BaseImage)
+    min(Optional) max(Many)
+    visibility (Private)
+  }
+  property (main_image) {
+    type (viv.core.Text)
+    min(Optional) max(One)
+    visibility (Private)
+  }
+  property (period){
+    type (period)
+    min(Optional) max(One)
+  }
+  property (genus){
+    type (genus)
+    min(Optional) max(One)
+  }
+  property (species){
+    type (species)
+    min(Optional) max(One)
+  }
+  property (height){
+    type (height)
+    min(Optional) max(One)
+  }
+  property (weight){
+    type (weight)
+    min(Optional) max(One)
+  }
+  property (location){
+    type (location)
+    min(Optional) max(One)
+  }
+}

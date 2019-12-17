@@ -1,0 +1,37 @@
+layout-macro-def (dinosaur-summary-card) {
+    params {
+      param (dinosaur) {
+        type (Dinosaur)
+        min (Optional) max (One)
+      }
+      param (titleLabel) {
+        type (viv.core.Text)
+        min (Optional) max (One)
+      }
+    }
+    content {
+          //use a thumbnail card, update struct to allow images
+          cell-card {
+            slot1 {
+              image {
+                shape (Square)
+                url("")
+              }
+            }
+            slot2 {
+              content {
+                primary {
+                  template (" [#{raw(titleLabel)}: ][#{value(dinosaur.nAME)}]")
+                }
+              }
+            }
+            slot3 {
+              label {
+                value {
+                  template ("")
+                }
+              }
+            }
+          }
+    }
+  }

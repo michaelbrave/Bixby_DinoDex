@@ -1,0 +1,5 @@
+train (t-265ylt8n7nqtcy1aks4vyxgix) {
+  utterance ("[g:FindDinosaur] search for (utahraptor)[v:NAME:Utahraptor]")
+  plan (Y2BmkC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgCsSxKPBz9HVlYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1576176198755)
+}

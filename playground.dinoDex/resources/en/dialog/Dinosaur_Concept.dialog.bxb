@@ -1,0 +1,14 @@
+dialog (Concept) {
+  match {
+    Dinosaur (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      //template ("#{value(dinosaur.name)}")
+      template (Dinosaur)
+    }
+    default {
+      template (Dinosaurs)
+    }
+  }
+}

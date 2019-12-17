@@ -1,0 +1,35 @@
+layout-macro-def (dinosaur-summary-card-embedded) {
+    params {
+        param (dinosaur) {
+          type (Dinosaur)
+          min (Optional) max (One)
+        }
+        param (titleLabel) {
+          type (viv.core.Text)
+          min (Optional) max (One)
+        }
+        param (link) {
+          type (viv.core.Top)
+        }
+      }
+      content {
+        compound-card {
+          content {
+            layout-macro (dinosaur-summary-card) {
+              param (dinosaur) {
+                expression (dinosaur)
+              }
+              param (titleLabel) {
+                expression (titleLabel)
+              }
+            }
+          }
+          on-click {
+            intent {
+              goal: Dinosaur
+              value: $expr(link)
+            }
+          }
+        }
+      }
+  }

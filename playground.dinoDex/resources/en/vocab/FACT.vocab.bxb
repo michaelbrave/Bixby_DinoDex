@@ -1,0 +1,22 @@
+vocab (FACT){
+    "Biggest Herbivorous Dinosaur" {"herbivore"}
+    "Biggest Carnivorous Dinosaur" {"carnivore"}
+    "Biggest Raptor" {"raptor"}
+    "Biggest Tyrannosaur" {"tyrannosaur"}
+    "Biggest Horned, Frilled Dinosaur" {"frilled", "horned"}
+    "Biggest Duck-Billed Dinosaur" {"duck-billed"}
+    "Biggest Dino-Bird" {"bird"}
+    "Biggest Bird Mimic Dinosaur" {"bird-like"}
+    "Biggest Prosauropod" {"prosauropod"}
+    "Biggest Pterosaur" {"pterosaur"}
+    "Biggest Crocodile" {"crocodile", "croc"}
+    "Biggest Snake" {"snake"}
+    "Biggest Turtle" {turtle}
+    "Biggest Ichthyosaur" {"ichthyosaur"}
+    "Biggest Pliosaur" {"pliosaur"}
+    "Biggest Plesiosaur" {"plesiosaur"}
+    "Biggest Mosasaur" {"mosasaur"}
+    "Biggest Archosaur" {"archosaur"}
+    "Biggest Therapsid" {"therapsid"}
+    "Biggest Pelycosaur" {"pelycosaur"}
+}

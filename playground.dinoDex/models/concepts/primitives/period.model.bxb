@@ -1,0 +1,6 @@
+enum (period) {
+  description (Time Period or Era They Lived In)
+  symbol (Late Cretaceous Period)
+  symbol (Jurrasic Period)
+  symbol (Cretaceous period)
+}

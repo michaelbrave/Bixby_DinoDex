@@ -1,0 +1,9 @@
+endpoints {
+  
+  action-endpoints {
+    action-endpoint (FindDinosaur) {
+      accepted-inputs (nAME, fACT, tRIVIA, period, genus, species, height, weight, location)
+      local-endpoint ("FindDinosaur.js")
+    }
+  }
+}

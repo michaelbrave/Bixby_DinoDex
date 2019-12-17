@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Dino Dex)
+  developer-name (Brave)
+  icon-asset (images/icons/Icon.png)
+  description ("Some facts about some of the coolest dinosaurs")
+  search-keywords {
+    keyword (Dinosaur)
+    keyword (Raptor)
+    keyword (Tyrannosaurus-Rex)
+  }
+  dispatch-name (Dino Dex)
+}

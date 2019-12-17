@@ -1,0 +1,16 @@
+hints {
+    uncategorized {
+        hint (with Dino Dex, search for Tyranosaurus Rex)
+        {
+          preferred-hint (search for Tyranosaurus Rex)
+        }
+        hint (ask Dino Dex, find Utah raptor)
+        {
+          preferred-hint (find Utah Raptor)
+        }
+        hint (start Dino dex)
+        {
+          preferred-hint (start)
+        }
+    }
+  }

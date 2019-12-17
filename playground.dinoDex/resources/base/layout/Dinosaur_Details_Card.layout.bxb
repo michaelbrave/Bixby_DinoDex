@@ -1,0 +1,49 @@
+layout-macro-def (dinosaur-details-card)
+{
+  params
+  {
+    param (dinosaur)
+    {
+      type (Dinosaur)
+      min (Required) max (One)
+    }
+    param (titleLabel)
+    {
+      type (viv.core.Text)
+      min (Optional) max (One)
+    }
+  }
+  content
+  {
+    layout
+    {
+      section
+      {
+        content
+        {
+          image
+          {
+            //aspect-ratio (16:9)
+            object-fit (Contain)
+            url ("[#{value(dinosaur.image[0].url)}]")
+            lightbox-enabled (true)
+          }
+            title-area
+            {
+              slot1
+              {
+                text("[#{value(dinosaur.nAME)}]")
+              }
+            }
+          
+          paragraph
+          { value ("#{title(concept(dinosaur.fACT.plural('One')))}: [#{value(dinosaur.fACT)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.tRIVIA.plural('One')))}: [#{value(dinosaur.tRIVIA)}]") style (Detail_M)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+action (FindDinosaur) {
+	type (Search)
+	collect {
+		input (nAME) {
+			type (NAME)
+			min (Optional)
+			max (One)
+		}
+		input (fACT) {
+			type (FACT)
+			min (Optional)
+			max (One)
+		}
+		input (tRIVIA) {
+			type (TRIVIA)
+			min (Optional)
+			max (One)
+		}
+		input (period) {
+			type (period)
+			min (Optional)
+			max (One)
+		}
+		input (genus) {
+			type (genus)
+			min (Optional)
+			max (One)
+		}
+		input (species) {
+			type (species)
+			min (Optional)
+			max (One)
+		}
+		input (height) {
+			type (height)
+			min (Optional)
+			max (One)
+		}
+		input (weight) {
+			type (weight)
+			min (Optional)
+			max (One)
+		}
+		input (location) {
+			type (location)
+			min (Optional)
+			max (One)
+		}
+	}
+	output (Dinosaur)
+}

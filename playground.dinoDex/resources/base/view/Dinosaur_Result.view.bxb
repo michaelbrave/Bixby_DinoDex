@@ -1,0 +1,52 @@
+result-view {
+    match: Dinosaur (this)
+    render {
+      if ("size(this) > 1") {
+        list-of (this) {
+          navigation-mode {
+            if ($handsFree) {
+              read-one {
+                with-navigation-conversation-drivers
+                list-summary {
+                  template("#{event (this, 'Result')}")
+                }
+                page-content (page) {
+                  underflow-statement {
+                    template-macro (RESULT_UNDERFLOW_STATEMENT)
+                  }
+                  item-selection-question {
+                    template-macro (ITEM_SELECTION_QUESTION_GENERIC)
+                  }
+                  overflow-statement {
+                    template-macro (RESULT_OVERFLOW_STATEMENT)
+                  }
+                  page-marker {
+                    if (isLastNavPage(page)){
+                      template-macro (PAGE_MARKER_LAST)
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          where-each (dinosaur) {
+            spoken-summary {
+              template("[#{value(dinosaur.nAME)}]")  //TODO: replace with a dialog that naturally summarizes the dinosaur
+            }
+            layout-macro (dinosaur-summary-card) {
+              param (dinosaur) {
+                expression (dinosaur)
+              }
+            }
+          }
+        }
+      } else-if ("size(this) == 1") {
+        layout-macro (dinosaur-details-card) {
+          param (dinosaur) {
+            expression (this)
+          }
+        }
+      }
+    }
+  }

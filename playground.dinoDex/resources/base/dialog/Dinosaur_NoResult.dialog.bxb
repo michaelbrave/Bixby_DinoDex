@@ -1,0 +1,14 @@
+dialog (NoResult) {
+      match {
+        Dinosaur (this) {
+          from-output: FindDinosaur(find)
+        }
+      }
+      template-macro (NO_RESULT) {
+        param (concept) {
+          if (exists(this)){
+            expression (this)
+          }
+        }
+      }
+    }
