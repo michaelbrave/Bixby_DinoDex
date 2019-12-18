@@ -1,5 +1,5 @@
-enum (FACT) {
-	description (Description for FACT)
+enum (Fact) {
+	description (Description for Fact)
 	symbol ("Biggest Herbivorous Dinosaur")
 	symbol ("Biggest Carnivorous Dinosaur")
 	symbol ("Biggest Raptor")

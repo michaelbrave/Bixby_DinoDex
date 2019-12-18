@@ -1,5 +1,5 @@
-enum (NAME) {
-  description (Description for NAME)
+enum (DinoName) {
+  description (Description for DinoName)
   symbol (Argentinosaurus)
   symbol (Spinosaurus)
   symbol (Utahraptor)

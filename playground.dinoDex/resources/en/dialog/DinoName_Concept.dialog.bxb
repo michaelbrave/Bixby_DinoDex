@@ -1,13 +1,13 @@
 dialog (Concept) {
   match {
-    NAME (this)
+    DinoName (this)
   }
   switch (plural(this)) {
     case (One) {
-      template (nAME)
+      template (name)
     }
     default {
-      template (nAMEs)
+      template (names)
     }
   }
 }

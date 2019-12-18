@@ -1,13 +1,13 @@
 dialog (Concept) {
-  match {
-    FACT (this)
-  }
-  switch (plural(this)) {
-    case (One) {
-      template (fACT)
-    }
-    default {
-      template (fACTs)
-    }
-  }
+	match {
+		Fact (this)
+	}
+	switch (plural(this)) {
+		case (One) {
+			template (fact)
+		}
+		default {
+			template (facts)
+		}
+	}
 }

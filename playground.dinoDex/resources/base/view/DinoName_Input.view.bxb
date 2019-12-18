@@ -1,5 +1,5 @@
 input-view {
-	match: Trivia (this)
+	match: DinoName (this)
 	render {
 		if (size(this) > 0) {
 			// -- selection
@@ -53,14 +53,14 @@ input-view {
 		
 		form {
 			on-submit {
-				goal : Trivia
+				goal : DinoName
 				value: viv.core.FormElement(text)
 			}
 			elements {
 				text-input{
 					id(text)
-					type (Trivia)
-					label(trivia)
+					type (DinoName)
+					label(dinoName)
 					value ("#{raw(this)}")
 				}
 			}

@@ -1,4 +1,4 @@
-vocab (FACT){
+vocab (Fact){
     "Biggest Herbivorous Dinosaur" {"herbivore"}
     "Biggest Carnivorous Dinosaur" {"carnivore"}
     "Biggest Raptor" {"raptor"}

@@ -32,7 +32,7 @@ input-view {
 
           where-each (dinosaur) {
             spoken-summary {
-              template("[#{value(dinosaur.nAME)}]")  //TODO: replace with a dialog that naturally summarizes the dinosaur
+              template("[#{value(dinosaur.dinoName)}]")  //TODO: replace with a dialog that naturally summarizes the dinosaur
             }
             layout-macro (dinosaur-summary-card) {
               param (dinosaur) {

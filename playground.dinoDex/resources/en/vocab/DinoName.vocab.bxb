@@ -1,4 +1,4 @@
-vocab (NAME){
+vocab (DinoName){
     "Argentinosaurus" {"Argentinosaurus", "argentina", "argentino"}
     "Spinosaurus" {"Spinosaurus", "spine", "spino"}
     "Utahraptor" {"utahraptor", "utah", "utah raptor"}

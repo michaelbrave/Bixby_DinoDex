@@ -2,5 +2,5 @@ dialog (Value) {
   match {
     Dinosaur (dinosaur)
   }
-  template ("[#{value (dinosaur.nAME)}]")
+  template ("[#{value (dinosaur.dinoName)}]")
 }

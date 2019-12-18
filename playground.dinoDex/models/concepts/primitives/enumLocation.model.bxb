@@ -1,4 +1,4 @@
-enum (location) {
+enum (Location) {
   description (Continent Found On)
   symbol (South America)
   symbol (North Africa)

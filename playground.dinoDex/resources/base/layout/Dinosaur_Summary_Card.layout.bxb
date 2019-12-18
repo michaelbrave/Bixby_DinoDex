@@ -21,7 +21,7 @@ layout-macro-def (dinosaur-summary-card) {
             slot2 {
               content {
                 primary {
-                  template (" [#{raw(titleLabel)}: ][#{value(dinosaur.nAME)}]")
+                  template (" [#{raw(titleLabel)}: ][#{value(dinosaur.dinoName)}]")
                 }
               }
             }

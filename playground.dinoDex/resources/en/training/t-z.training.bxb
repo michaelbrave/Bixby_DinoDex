@@ -1,5 +1,5 @@
 train (t-zm788nakss5hq0cmk7x4yp2r4) {
-  utterance ("[g:FindDinosaur] (spinosaurus)[v:NAME:Spinosaurus]")
-  plan (Y2BmkC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgCsSxKPBz9HVlYGJgBGIGIMnIAAJQPgA=)
-  last-modified (1576177102498)
+  utterance ("[g:FindDinosaur] (spinosaurus)[v:DinoName:Spinosaurus]")
+  plan (Y2BmkC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgCnDp9kvMTWVgYmAEYgYgycgAAlA+AA==)
+  last-modified (1576703695698)
 }

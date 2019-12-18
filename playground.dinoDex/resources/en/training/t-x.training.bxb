@@ -1,5 +1,5 @@
 train (t-xwx2svqt9e0lwxabr1qwxsr6o) {
-  utterance ("[g:FindDinosaur] (t-rex)[v:NAME:'Tyrannosaurus Rex']")
-  plan (Y2BmkC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgCsSxKPBz9HVlYGJgBGIGIMnIAAJQPgA=)
-  last-modified (1576176839576)
+  utterance ("[g:FindDinosaur] (t-rex)[v:DinoName:'Tyrannosaurus Rex']")
+  plan (Y2BmkC7ISaxML8ovzUvRS8nMy3dJrdBzAdLFiaVFDPJYJN0y81LgCnDp9kvMTWVgYmAEYgYgycgAAlA+AA==)
+  last-modified (1576703672796)
 }

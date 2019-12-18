@@ -1,14 +1,14 @@
 structure (Dinosaur) {
-  property (nAME) {
-    type (NAME)
+  property (dinoName) {
+    type (DinoName)
     min(Optional) max(One)
   }
-  property (fACT) {
-    type (FACT)
+  property (fact) {
+    type (Fact)
     min(Optional) max(One)
   }
-  property (tRIVIA) {
-    type (TRIVIA)
+  property (trivia) {
+    type (Trivia)
     min(Optional) max(One)
   }
   property (image) {
@@ -22,23 +22,23 @@ structure (Dinosaur) {
     visibility (Private)
   }
   property (period){
-    type (period)
+    type (Period)
     min(Optional) max(One)
   }
   property (species){
-    type (species)
+    type (Species)
     min(Optional) max(One)
   }
   property (height){
-    type (height)
+    type (Height)
     min(Optional) max(One)
   }
   property (weight){
-    type (weight)
+    type (Weight)
     min(Optional) max(One)
   }
   property (location){
-    type (location)
+    type (Location)
     min(Optional) max(One)
   }
 }
