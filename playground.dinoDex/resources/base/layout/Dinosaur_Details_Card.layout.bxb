@@ -37,11 +37,30 @@ layout-macro-def (dinosaur-details-card)
             }
           
           paragraph
+          { value ("#{title(concept(dinosaur.genus.plural('One')))}: [#{value(dinosaur.genus)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.species.plural('One')))}: [#{value(dinosaur.species)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.location.plural('One')))}: [#{value(dinosaur.location)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.period.plural('One')))}: [#{value(dinosaur.period)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.height.plural('One')))}: [#{value(dinosaur.height)}]") style (Detail_M)
+          }
+          paragraph
+          { value ("#{title(concept(dinosaur.weight.plural('One')))}: [#{value(dinosaur.weight)}]") style (Detail_M)
+          }
+          paragraph
           { value ("#{title(concept(dinosaur.fACT.plural('One')))}: [#{value(dinosaur.fACT)}]") style (Detail_M)
           }
           paragraph
           { value ("#{title(concept(dinosaur.tRIVIA.plural('One')))}: [#{value(dinosaur.tRIVIA)}]") style (Detail_M)
           }
+
         }
       }
     }
