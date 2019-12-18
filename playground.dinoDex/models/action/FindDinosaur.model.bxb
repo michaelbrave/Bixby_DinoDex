@@ -21,11 +21,6 @@ action (FindDinosaur) {
 			min (Optional)
 			max (One)
 		}
-		input (genus) {
-			type (genus)
-			min (Optional)
-			max (One)
-		}
 		input (species) {
 			type (species)
 			min (Optional)

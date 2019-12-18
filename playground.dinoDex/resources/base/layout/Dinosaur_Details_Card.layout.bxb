@@ -36,9 +36,7 @@ layout-macro-def (dinosaur-details-card)
               }
             }
           
-          paragraph
-          { value ("#{title(concept(dinosaur.genus.plural('One')))}: [#{value(dinosaur.genus)}]") style (Detail_M)
-          }
+
           paragraph
           { value ("#{title(concept(dinosaur.species.plural('One')))}: [#{value(dinosaur.species)}]") style (Detail_M)
           }

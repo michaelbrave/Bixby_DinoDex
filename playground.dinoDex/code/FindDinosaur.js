@@ -1,7 +1,7 @@
 exports.tests = []
 exports.preconditions = []
 const allData = require("./lib/dinosaur");
-exports.function = function(nAME, fACT, tRIVIA, period, genus, species, height, weight, location) {
+exports.function = function(nAME, fACT, tRIVIA, period, species, height, weight, location) {
   var records = allData
   if (nAME) {
     records = records.filter(record => record.nAME.toLowerCase().indexOf(nAME.toLowerCase()) >= 0)
@@ -14,9 +14,6 @@ exports.function = function(nAME, fACT, tRIVIA, period, genus, species, height, 
   }
   if (period) {
     records = records.filter(record => record.period.toLowerCase().indexOf(tRIVIA.toLowerCase()) >= 0)
-  }
-  if (genus) {
-    records = records.filter(record => record.genus.toLowerCase().indexOf(tRIVIA.toLowerCase()) >= 0)
   }
   if (species) {
     records = records.filter(record => record.species.toLowerCase().indexOf(tRIVIA.toLowerCase()) >= 0)

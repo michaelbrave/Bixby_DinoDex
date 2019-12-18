@@ -2,4 +2,11 @@ enum (location) {
   description (Continent Found On)
   symbol (South America)
   symbol (North Africa)
+  symbol (Asia)
+  symbol (North America)
+  symbol (Africa & South America)
+  symbol (North America & Asia)
+  symbol (Australia & South America)
+  symbol (Europe)
+  symbol (Africa)
 }
