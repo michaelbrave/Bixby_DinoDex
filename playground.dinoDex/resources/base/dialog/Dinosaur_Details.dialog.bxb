@@ -1,0 +1,12 @@
+dialog (Result) {
+	match: Dinosaur (dinoName) {
+		from-output: FindDinosaur(find)
+	}
+	if (size(dinoName) > 1) {
+		template (Here are some Dinosaurs)
+	} else {
+		template ("[#{value(dinoName.dinoName)}]") {
+      speech ("[#{value(dinoName.dinoName)}  #{value(dinoName.trivia)}]")
+    }
+	}
+}

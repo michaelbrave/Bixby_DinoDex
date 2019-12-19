@@ -9,6 +9,7 @@ capsule {
     support-halt-effect-in-computed-inputs
     concepts-inherit-super-type-features
     use-input-views-for-selection-list-detail
+    allow-dialogs-on-detail-pages
   }
   targets {
     target (bixby-mobile-en-US)

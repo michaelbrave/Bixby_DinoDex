@@ -19,11 +19,11 @@ layout-macro-def (dinosaur-details-card) {
             url ("[#{value(dinosaur.image[0].url)}]")
             lightbox-enabled (true)
           }
-            title-area {
-              slot1 {
-                text("[#{value(dinosaur.dinoName)}]")
-              }
-            }
+            // title-area {
+            //   slot1 {
+            //     text("[#{value(dinosaur.dinoName)}]")
+            //   }
+            // }
           paragraph { value ("#{title(concept(dinosaur.species.plural('One')))}: [#{value(dinosaur.species)}]") style (Detail_M)
           }
           paragraph { value ("#{title(concept(dinosaur.location.plural('One')))}: [#{value(dinosaur.location)}]") style (Detail_M)
